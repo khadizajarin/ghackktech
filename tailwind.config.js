@@ -13,5 +13,22 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: [
+      {
+        anime: {
+          "primary": "#1E3E62",
+          "secondary": "#FF6510",
+          "accent": "#0B192C",
+          "neutral": "#000000",
+          "base-100": "#ffffff",
+        },
+      },
+      "dark",
+      "cupcake",
+    ],
+  },
 };
