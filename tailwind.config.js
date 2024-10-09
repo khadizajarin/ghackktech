@@ -20,9 +20,9 @@ module.exports = {
     themes: [
       {
         anime: {
-          "primary": "#1E3E62",
-          "secondary": "#FF6510",
-          "accent": "#0B192C",
+          "primary": "#154956",
+          "secondary": "#F14C38",
+          "accent": "#FAF1E0",
           "neutral": "#000000",
           "base-100": "#ffffff",
         },

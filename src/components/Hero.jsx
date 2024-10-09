@@ -15,7 +15,7 @@ const cinzel_decorative = Cinzel_Decorative({
 
 const Hero = () => {
     return (
-      <section className="hero min-h-screen" style={{ backgroundImage: 'url(https://www.shutterstock.com/image-photo/greek-mythologyinspired-background-169-aspect-260nw-2501167313.jpg)' }}>
+      <section className="hero lg:min-h-screen h-[40rem]" style={{ backgroundImage: 'url(https://www.shutterstock.com/image-photo/greek-mythologyinspired-background-169-aspect-260nw-2501167313.jpg)' }}>
         <div className="hero-overlay bg-primary bg-opacity-50"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-lg">
