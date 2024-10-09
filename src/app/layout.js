@@ -5,6 +5,7 @@ import { Cinzel_Decorative,Cinzel } from 'next/font/google'
 import Hero from "@/components/Hero";
 import Characters from "@/components/Characters";
 import Carousel from "@/components/Carousel";
+import Footer from "@/components/Footer";
 
 
 const cinzel = Cinzel({
@@ -26,8 +27,9 @@ export default function RootLayout({ children }) {
       >
         <NavBar></NavBar>
         <Hero></Hero>
-        {/* <Carousel></Carousel> */}
+        <Carousel></Carousel>
         <Characters></Characters>
+        <Footer></Footer>
         {children}
       </body>
     </html>

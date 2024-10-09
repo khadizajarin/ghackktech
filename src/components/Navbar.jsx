@@ -69,7 +69,7 @@ const NavBar = () => {
         <li><a>Contact</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl text-secondary">daisyUI</a>
+    <a className="btn btn-ghost text-xl text-secondary">Lore Olympus</a>
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-secondary ">

@@ -26,6 +26,18 @@ const nextConfig = {
               protocol: 'https',
               hostname: 'www.shutterstock.com',
           },
+          {
+            protocol: 'https',
+            hostname: 'static1.cbrimages.com',
+        },
+        {
+            protocol: 'https',
+            hostname: 'static1.cbrimages.com',
+        },
+        {
+            protocol: 'https',
+            hostname: 'animemangatoon.com',
+        },
         ],
       },
 };
