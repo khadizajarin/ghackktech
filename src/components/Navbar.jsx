@@ -19,24 +19,7 @@ const cinzel_decorative = Cinzel_Decorative({
 
 const NavBar = () => {
   return (
-    // <nav className="bg-base-100 shadow-md" style={{ fontFamily: cinzel.style.fontFamily,  fontWeight: '900' }}>
-    //   <div className="container lg:px-10 px-2 py-2 flex justify-between items-center">
-    //     <Link href="/">
-    //       <div className="text-xl font-bold">Lore Olympus</div>
-    //     </Link>
-    //     <div>
-    //       <Link href="/about">
-    //         <div className="btn btn-ghost">About</div>
-    //       </Link>
-    //       <Link href="/characters">
-    //         <div className="btn btn-ghost">Characters</div>
-    //       </Link>
-    //       <Link href="/contact">
-    //         <div className="btn btn-ghost">Contact</div>
-    //       </Link>
-    //     </div>
-    //   </div>
-    // </nav>
+
 
     <div className="navbar  lg:p-5 shadow-lg bg-primary" style={{ fontFamily: cinzel_decorative.style.fontFamily,  fontWeight: '900' }}>
   <div className="navbar-start">

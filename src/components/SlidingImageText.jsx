@@ -50,8 +50,8 @@ const SlidingImageText = ({ images, intervalDuration, className, text,descriptio
       <div className={`absolute top-0 lg:-left-1  w-full h-full flex justify-center items-center transition-transform duration-500 ${showImage ? '-translate-x-full' : 'translate-x-0'}`}>
         {/* Your text content */}
         <div className="text-center text-white">
-          <h1 className="flex justify-center items-center lg:gap-6 gap-1 text-4xl text-secondary" style={{ fontFamily: cinzel_decorative.style.fontFamily, fontWeight: '900' }}> {text}</h1>
-          <p className=" lg:text-2xl text-xl lg:my-4 my-1 lg:px-4 px-4 text-secondary font-semibold text-opacity-60" style={{ fontFamily: cinzel.style.fontFamily, fontWeight: '400' }}> {description}</p>
+          <h1 className="flex justify-center items-center lg:gap-6 gap-1 lg:text-4xl text-2xl text-secondary" style={{ fontFamily: cinzel_decorative.style.fontFamily, fontWeight: '900' }}> {text}</h1>
+          <p className=" lg:text-2xl text-lg lg:my-4 my-1 lg:px-4 px-4 text-secondary font-semibold text-opacity-80" style={{ fontFamily: cinzel.style.fontFamily, fontWeight: '400' }}> {description}</p>
         </div>
       </div>
     </div>

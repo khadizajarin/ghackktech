@@ -28,19 +28,12 @@ const characters = [
 
 const Characters = () => {
   return (
-    <section className="py-12 bg-primary text-secondary">
-      <div className="container mx-auto px-4 pt-10 ">
-        <h2 className="text-3xl font-bold text-center mb-8" style={{ fontFamily: cinzel_decorative.style.fontFamily, fontWeight: '900' }}>Main Characters</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:h-[90vh] h-[120vh]">
+    <section className="lg:py-12 py-6 bg-primary text-secondary">
+      <div className="container mx-auto lg:px-28 px-4 pt-10 ">
+        <h2 className="text-3xl font-bold text-center mb-20" style={{ fontFamily: cinzel_decorative.style.fontFamily, fontWeight: '900' }}>Main Characters</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:h-[90vh] h-[400vh]">
           {characters.map((character) => (
             <SlidingImageText key={character.name} intervalDuration={4000} text={character.name} description={character.description} images={character.image} className="">
-              {/* <figure>
-                <Image src={character.image} width='256' height='256' alt={character.name} className="rounded-lg" />
-              </figure>
-              <div className="card-body opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-70">
-                <h3 className="card-title " style={{ fontFamily: cinzel_decorative.style.fontFamily, fontWeight: '700' }}>{character.name}</h3>
-                <p style={{ fontFamily: cinzel_decorative.style.fontFamily, fontWeight: '400' }}>{character.description}</p>
-              </div> */}
             </SlidingImageText>
           ))}
         </div>
